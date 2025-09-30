@@ -50,56 +50,58 @@ const Page = () => {
 
         <div className='flex flex-col gap-4'>
         <Accordion type="single" collapsible className='bg-zinc-300 p-4 rounded-lg'>
-  <AccordionItem value="item-1">
-    <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Easy to use for everyone</li>
-        <li>Supports keyboard navigation</li>
-        <li>Screen reader friendly</li>
-      </ul>
-      <hr className='my-4'/>
-      <div>
-
-  <Button>Let's try</Button>
-      </div>
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
+          <AccordionItem value="item-1">
+            <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Easy to use for everyone</li>
+                <li>Supports keyboard navigation</li>
+                <li>Screen reader friendly</li>
+              </ul>
+              <hr className='my-4'/>
+              <div>
+        
+          <Button>Let's try</Button>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+          
         <Accordion type="single" collapsible className='bg-zinc-300 p-4 rounded-lg'>
-  <AccordionItem value="item-1">
-    <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Easy to use for everyone</li>
-        <li>Supports keyboard navigation</li>
-        <li>Screen reader friendly</li>
-      </ul>
-      <hr className='my-4'/>
-      <div>
-
-  <Button>Let's try</Button>
-      </div>
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
+          <AccordionItem value="item-1">
+            <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Easy to use for everyone</li>
+                <li>Supports keyboard navigation</li>
+                <li>Screen reader friendly</li>
+              </ul>
+              <hr className='my-4'/>
+              <div>
+        
+          <Button>Let's try</Button>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
+          
         <Accordion type="single" collapsible className='bg-zinc-300 p-4 rounded-lg'>
-  <AccordionItem value="item-1">
-    <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Easy to use for everyone</li>
-        <li>Supports keyboard navigation</li>
-        <li>Screen reader friendly</li>
-      </ul>
-      <hr className='my-4'/>
-      <div>
-
-  <Button>Let's try</Button>
-      </div>
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
+          <AccordionItem value="item-1">
+            <AccordionTrigger className='text-2xl'>Is it accessible?</AccordionTrigger>
+            <AccordionContent>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Easy to use for everyone</li>
+                <li>Supports keyboard navigation</li>
+                <li>Screen reader friendly</li>
+              </ul>
+              <hr className='my-4'/>
+              <div>
+        
+          <Button>Let's try</Button>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
         </div>
 
     </div>
