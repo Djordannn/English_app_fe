@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */ images: {
-    domains: ["i.pinimg.com"],
+  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+      },
+    ],
   },
 };
-
-module.exports = nextConfig;
 
 export default nextConfig;
