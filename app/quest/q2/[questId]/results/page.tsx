@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function ResultPage() {
   const searchParams = useSearchParams();
-  const router = useRouter();
+  // const router = useRouter();
 
   // Ambil nilai score & total dari query
   const score = Number(searchParams.get("score") || 0);

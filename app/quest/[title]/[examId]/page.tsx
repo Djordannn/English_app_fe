@@ -4,7 +4,7 @@ import React from "react";
 import { useParams } from "next/navigation";
 import { BackButton } from "@/app/component/back-button";
 import { Menu } from "lucide-react";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 

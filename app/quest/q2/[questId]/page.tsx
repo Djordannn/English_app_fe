@@ -1,6 +1,6 @@
 "use client";
+
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import {
@@ -90,7 +90,7 @@ const Q2 = () => {
                     alt="dialog"
                     width={800}
                     height={400}
-                    className="w-full h-[300px] object-cover object-fill rounded-md"
+                    className="w-full h-[300px] object-fill rounded-md"
                   />
                 </div>
               </CardContent>

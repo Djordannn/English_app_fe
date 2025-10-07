@@ -60,8 +60,8 @@ const Results = () => {
     },
   ];
 
-  const totalScore = sections.reduce((sum, section) => sum + section.score, 0);
-  const averageScore = Math.round(totalScore / sections.length);
+  // const totalScore = sections.reduce((sum, section) => sum + section.score, 0);
+  // const averageScore = Math.round(totalScore / sections.length);
   const overallBand = (
     sections.reduce((sum, section) => sum + section.band, 0) / sections.length
   ).toFixed(1);
