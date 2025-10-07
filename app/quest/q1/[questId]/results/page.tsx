@@ -1,11 +1,9 @@
 "use client";
 
-import { useSearchParams, useRoute, useParams } from "next/navigation";
+import { useSearchParams, useParams } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import Link from "next/link";
-import { log } from "console";
 
 export default function ResultPage() {
   const searchParams = useSearchParams();
